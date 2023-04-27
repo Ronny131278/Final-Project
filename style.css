@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Spectral", serif;
+  background-color: #a5abaf;
+}
+
+/* Header */
+.div-header {
+  height: 10vh;
+  background-color: #7c6354;
+  max-width: 100%;
+  /* position: fixed; */
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-header {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 20px;
+  padding: 10px 20px 0px;
+}
+
+.div-header a {
+  color: #f8dcda;
+  padding: 0px 20px;
+}
+
+.nav-header2 {
+  font-size: 30px;
+  text-align: right;
+  margin: 10px 20px;
+  padding: 10px 20px 0px;
+}
+
+/* Projekt */
+.div-projekt {
+  border: 16px solid #a5abaf;
+  overflow: hidden;
+}
+
+.div-projekt2 img {
+  /* background-image: url(./images/thierry-lemaitre-_q82bDQL_EI-unsplash.jpg); */
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-position: 0% 65%;
+}
+
+h1 {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  /* padding: 20px; */
+  text-align: center;
+  font-size: 48px;
+  background-color: #7c6354;
+  color: #f8dcda;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ueber */
+.div-ueber {
+  background-color: #a5abaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-ueber {
+  background-color: #7c6354;
+  margin: 16px;
+  width: 30%;
+  height: 450px;
+  font-size: 48px;
+  color: #f8dcda;
+  text-align: center;
+}
+
+.map-ueber {
+  margin: 16px;
+}
+
+/* Ueber-Boxen */
+.ueber-boxen {
+    max-width: 100%;
+    min-height: 100vh;
+    padding-top: 50 px;
+    display: flex;
+    justify-content: center; 
+}
+
+.ueber-boxen2 {
+    max-width: 300px;
+    min-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.div-boxen-ueber {
+    background-color: #7c6354;
+    color: #f8dcda;
+    margin: 50px 5px;
+    padding: 0;
+    min-width: 250px;
+   }
+
+.div-boxen-ueber img {
+    max-width: 290px;
+}
+
+.div-boxen-ueber a {
+  font-weight: bold;
+  color: #f8dcda;
+  font-size: 24px;
+  padding: 16px 0;
+  text-decoration: none;
+}
+
+.div-boxen-ueber a:hover {
+    text-decoration: underline;
+}
+
+.div-boxen-info-ueber {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
