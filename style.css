@@ -94,55 +94,63 @@ h1 {
 
 /* Ueber-Boxen */
 .ueber-boxen {
-    max-width: 100%;
-    min-height: 100vh;
-    padding-top: 50 px;
-    display: flex;
-    justify-content: center; 
+  max-width: 100vw;
+  max-height: 600px;
+  padding-top: 50 px;
+  display: flex;
+  justify-content: center;
 }
 
 .ueber-boxen2 {
-    max-width: 300px;
-    min-height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 30px;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 30px;
 }
 
 .div-boxen-ueber {
-    background-color: #7c6354;
-    color: #f8dcda;
-    margin: 50px 5px;
-    padding: 0;
-    min-width: 250px;
-   }
+  background-color: #7c6354;
+  color: #f8dcda;
+  margin: 50px 5px;
+  padding: 0;
+  min-width: 250px;
+}
 
 .div-boxen-ueber img {
-    max-width: 290px;
+  max-width: 290px;
+  max-height: 193px;
 }
 
 .div-boxen-ueber a {
   font-weight: bold;
-  color: #f8dcda;
+  color: #e3e9c2;
   font-size: 24px;
   padding: 16px 0;
   text-decoration: none;
 }
 
 .div-boxen-ueber a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .div-boxen-info-ueber {
-    max-width: 100%;
-    height: auto;
-    margin: 15px 0;
-    padding: 20px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-weight: bolder;
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  padding: 20px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: bolder;
+}
+
+.h4-ueber {
+  margin: 15px 0;
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #f8dcda;
 }
