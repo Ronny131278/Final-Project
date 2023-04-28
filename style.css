@@ -131,6 +131,14 @@ h1 {
   text-decoration: none;
 }
 
+.div-boxen-ueber p {
+  font-weight: bold;
+  color: #e3e9c2;
+  font-size: 24px;
+  padding: 16px 0;
+  text-decoration: none;  
+}
+
 .div-boxen-ueber a:hover {
   text-decoration: underline;
 }
