@@ -29,7 +29,7 @@ body {
 }
 
 .div-header a {
-  color: #f8dcda;
+  color: #e3e9c2;
   padding: 0px 20px;
 }
 
@@ -63,7 +63,7 @@ h1 {
   width: 100%;
   /* padding: 20px; */
   text-align: center;
-  font-size: 48px;
+  font-size: 60px;
   background-color: #7c6354;
   color: #f8dcda;
   justify-content: center;
@@ -74,7 +74,7 @@ h1 {
 .div-ueber {
   background-color: #a5abaf;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -85,7 +85,11 @@ h1 {
   height: 450px;
   font-size: 48px;
   color: #f8dcda;
-  text-align: center;
+}
+
+.p-ueber p {
+  padding: 10px;
+  margin: 15px;
 }
 
 .map-ueber {
@@ -98,7 +102,7 @@ h1 {
   max-height: 600px;
   padding-top: 50 px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .ueber-boxen2 {
@@ -123,6 +127,15 @@ h1 {
   max-height: 193px;
 }
 
+.h4-ueber {
+  margin: 15px 0;
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #f8dcda;
+  text-align: center;
+}
+
 .div-boxen-ueber a {
   font-weight: bold;
   color: #e3e9c2;
@@ -133,7 +146,7 @@ h1 {
 
 .div-boxen-ueber p {
   font-weight: bold;
-  color: #e3e9c2;
+  color: #f8dcda;
   font-size: 24px;
   padding: 16px 0;
   text-decoration: none;  
@@ -155,10 +168,3 @@ h1 {
   font-weight: bolder;
 }
 
-.h4-ueber {
-  margin: 15px 0;
-  padding: 20px;
-  font-size: 24px;
-  text-decoration: underline;
-  color: #f8dcda;
-}
