@@ -93,6 +93,18 @@ h1 {
   margin: 16px;
 }
 
+.ueber-text {
+  background-color: #7c6354;
+  margin: 16px;
+}
+
+.ueber-text p {
+  color: #f8dcda;
+  margin: 16px;
+  padding: 10px;
+  font-size: 24px;
+}
+
 /* Ueber-Boxen */
 .ueber-boxen {
   max-width: 100vw;
@@ -113,7 +125,7 @@ h1 {
 .div-boxen-ueber {
   background-color: #7c6354;
   color: #f8dcda;
-  margin: 50px 5px;
+  margin: 16px 5px;
   padding: 0;
   min-width: 250px;
 }
