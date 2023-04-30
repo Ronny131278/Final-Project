@@ -178,4 +178,9 @@ h1 {
 
 .wertung {
   display: flex;
+  background-color: #7c6354;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
